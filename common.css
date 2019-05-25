@@ -1,7 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #424244
+    color: #424244;
+    background-color: #f6f7ff;
 }
 .container{
     width: 1020px;
@@ -9,9 +10,10 @@ body{
 }
 .container form input[type=text] {
 width: 15%;
-border: 1px solid #518cf7;
+border: 1px solid #dedede;
 border-radius: 3px;
-padding: 3px 5px;
+padding: 3px 5px ;
+margin-bottom: 10px;
 
 }
 .container form input[type="submit"]{
@@ -21,20 +23,32 @@ padding: 3px 5px;
     border: 1px solid #518cf7;
     background-color: #518cf7;
     border-radius: 3px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-bottom: 10px;
 }
-table{
+.table1 {
     width: 90%;
-    margin: 3px 0;
-    padding: 3px;
+    margin: 3px;
+    background-color: #ffffff;
+    padding: 10px;
     border: 1px solid #dedede;
     border-radius: 5px;
+}
+table{
+    width: 100%;
+    margin: 3px 0;
+    padding: 0px;
+    border-collapse: collapse; 
+}
+tr:hover td {
+    background:#f7f7f7;
 }
 th {
     padding: 0 3px 0 3px;
     text-align: left;
     background-color: #efeff7;
     color: #5a5a5a;
+    height:25px;
 }
 a{
     color: #4a8cf7;
@@ -44,6 +58,7 @@ td{
     border-width: 0 0 1px 0;
     border-color: #f7f7f7;
     border-style: solid;
+    height: 20px;
 }
 .ok{
     color: #7cd631;
