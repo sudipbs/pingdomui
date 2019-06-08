@@ -3,83 +3,89 @@ body{
     font-size: 12px;
     color: #424244;
     background-color: #F7F7FF;
+    margin: 0;
 }
-.container{
-    width: 1020px;
+.frame{
+    max-width: 910px;
+    padding: 25px 55px;
     margin: 0 auto;
-    cursor: url('./images/mouse-cursor.png'), auto;
+}
+
+form {
+    padding: 18px 0;
+}
+.container{  
+    border: 1px solid #dedede;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 .container form input[type=text] {
-width: 15%;
-border: 1px solid #dedede;
-border-radius: 3px;
-padding: 3px 5px ;
-margin-bottom: 10px;
-
+    width: 15%;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding: 8px 12px ;
+    min-width: 200px;
+    margin-right: 12px;
 }
 .container form input[type="submit"]{
     padding: 3px 5px;
     width: 50px;
-    height: 23px;
+    height: 33px;
     border: 1px solid #6097F8;
     background-color: #6097F8;
     border-radius: 3px;
+    cursor: pointer;
     color: #FFFFFF;
-    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
 }
 .table1 {
-    width: 90%;
-    margin: 3px;
+    width: 100%;
     background-color: #ffffff;
-    padding: 10px;
-    border: 1px solid #dedede;
-    border-radius: 5px;
+    
 }
 table{
     width: 100%;
-    margin: 3px 0;
-    padding: 0px;
     border-collapse: collapse; 
 }
 tr:hover td {
     background:#f7f7f7;
 }
 th {
-    padding: 0 3px 0 10px;
+    padding-left: 20px;
     text-align: left;
     background-color: #EFF7FF;
     color: #5a5a5a;
-    height:28px;
+    height: 40px;
 }
 a{
     color: #6097F8;
 }
 td{
-    padding: 0 3px 0 10px;
+    padding-left: 20px;
     border-width: 0 0 1px 0;
     border-color: #f7f7f7;
     border-style: solid;
     height: 50px;
 }
-.ok{
+
+.ok,
+.down {
     color: #ffffff;
-    background-color: #7cd631;
-    width: 55px;
     height: 14px;
     text-align: center;
     border-radius: 3px;
     padding: 2px; 
     font-size: 10px;
 }
+.ok{
+    background-color: #7cd631;
+}
 .down{
-    color: #ffffff;
     background-color: #e74a63;
-    width: 55px;
-    height: 14px;
-    text-align: center;
-    border-radius: 3px;
-    padding: 2px;
-    font-size: 10px;
 }
 .name{
     font-weight: bold;
